@@ -7,7 +7,7 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
     if (password === correctPassword) {
         document.getElementById('message').style.color = 'green';
         document.getElementById('message').innerText = 'Login successful!';
-        window.location.href = "https://black44r.github.io/tufan.github.io/"; // Redirect to Google.com
+        window.location.href = "https://black44r.github.io/tufan.github.io/index.html"; // Redirect to Google.com
     } else {
         document.getElementById('message').style.color = 'red';
         document.getElementById('message').innerText = 'Incorrect password!';
