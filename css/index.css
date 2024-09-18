@@ -23,6 +23,27 @@ body {
     text-align: center;
 }
 
+.app-name {
+            color: #FFA500;
+            display: flex;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: left;
+            justify-content: space-between;
+            font-weight: bold;
+}
+.get-more {
+            background-color: #070E64;
+            color: #1CFF00;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 15px;
+            margin-left: 60px;
+            align-items: center;
+            width: 100px;
+}
 .checked-count {
     display: flex;
     justify-content: space-between;
